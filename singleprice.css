@@ -1,0 +1,346 @@
+body{
+    background: hsl(204, 43%, 93%) ;
+    font-family: Karla;
+    font-size: 16px;
+}
+
+    .attribution {font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%)}
+
+@media only screen and (min-width:320px) and (max-width:425px){
+
+
+    
+
+main{
+    width: 90%;
+    margin: 40px auto;
+}
+
+.joinNote,.subNote,.whyNote{
+    padding: 30px;
+}
+
+.joinNote{
+    background: white;
+}
+.joinNote p:nth-child(1){
+    font-weight: 700;
+    font-size: x-large;
+    color:  hsl(179, 62%, 43%);
+}
+.joinNote p:nth-child(2){
+    color: hsl(71, 73%, 54%);
+}
+
+.joinNote p:nth-child(3){
+    color:hsl(218, 22%, 67%) ;
+    font-size: small;
+    font-weight: 400;
+    line-height: 180%;
+}
+
+
+
+.subNote{
+
+    background: hsl(179, 62%, 43%) ;
+}
+
+.subNote p{ 
+    color: white;
+}
+
+.subNote p:nth-child(1){
+    font-weight: 700;
+    margin: 0px;
+}
+
+
+.subNote p:nth-child(2){
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.subNote span{
+    margin-left: 5px;
+    display: inline-block;
+    font-size: medium;
+    color: whitesmoke;
+    font-weight: 400;
+    position: relative;
+    bottom: 6px;
+    opacity: 0.5;
+    
+}
+
+.subNote p:nth-child(3){
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.subNote a{
+
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px; 
+    /* margin: 1px auto; */
+    border-radius: 5px;
+    background:hsl(71, 73%, 54%);
+    text-align: center;
+     
+}
+
+.whyNote{
+    background:hsl(179, 98%, 63%);
+    /* color: white; */
+    color: whitesmoke;
+
+}
+
+.whyNote p:nth-child(1){
+    font-weight: 700;
+
+}
+
+.whyNote p:nth-child(2){
+    line-height: 180%;
+    font-size: small;
+    font-weight: 400;
+       
+}
+
+
+}
+
+@media only screen and (min-width:426px) and (max-width:1023px){
+
+
+    main{
+        width: 70%;
+        margin: 40px auto;
+    }
+    
+    .joinNote,.subNote,.whyNote{
+        padding: 100px;
+    }
+    
+    .joinNote{
+        background: white;
+    }
+    .joinNote p:nth-child(1){
+        font-weight: 700;
+        font-size: x-large;
+        color:  hsl(179, 62%, 43%);
+    }
+    .joinNote p:nth-child(2){
+        color: hsl(71, 73%, 54%);
+    }
+    
+    .joinNote p:nth-child(3){
+        color:hsl(218, 22%, 67%) ;
+        font-size: small;
+        font-weight: 400;
+        line-height: 180%;
+    }
+    
+    
+    
+    .subNote{
+    
+        background: hsl(179, 62%, 43%) ;
+    }
+    
+    .subNote p{ 
+        color: white;
+    }
+    
+    .subNote p:nth-child(1){
+        font-weight: 700;
+        margin: 0px;
+    }
+    
+    
+    .subNote p:nth-child(2){
+        font-size: xx-large;
+        font-weight: 700;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .subNote span{
+        margin-left: 5px;
+        display: inline-block;
+        font-size: medium;
+        color: whitesmoke;
+        font-weight: 400;
+        position: relative;
+        bottom: 6px;
+        opacity: 0.5;
+        
+    }
+    
+    .subNote p:nth-child(3){
+        font-weight: 400;
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    
+    .subNote a{
+    
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 10px 10px; 
+        /* margin: 1px auto; */
+        border-radius: 5px;
+        background:hsl(71, 73%, 54%);
+        text-align: center;
+         
+    }
+    
+    .whyNote{
+        background:hsl(179, 98%, 63%);
+        /* color: white; */
+        color: whitesmoke;
+    
+    }
+    
+    .whyNote p:nth-child(1){
+        font-weight: 700;
+    
+    }
+    
+    .whyNote p:nth-child(2){
+        line-height: 180%;
+        font-size: small;
+        font-weight: 400;
+           
+    }
+
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1440px){
+
+    main{
+        width: 55%;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .joinNote,.subNote,.whyNote{
+        padding: 65px;
+    }
+    
+    .joinNote{
+        background: white;
+        grid-column: 1/3;
+    }
+    .joinNote p:nth-child(1){
+        font-weight: 700;
+        font-size: xx-large;
+        color:  hsl(179, 62%, 43%);
+    }
+    .joinNote p:nth-child(2){
+        color: hsl(71, 73%, 54%);
+        font-size: x-large;
+    }
+    
+    .joinNote p:nth-child(3){
+        color:hsl(218, 22%, 67%) ;
+        font-size: large;
+        font-weight: 400;
+        line-height: 180%;
+    }
+    
+    
+    
+    .subNote{
+    
+        background: hsl(179, 62%, 43%) ;
+    }
+    
+    .subNote p{ 
+        color: white;
+    }
+    
+    .subNote p:nth-child(1){
+        font-weight: 700;
+        margin: 0px;
+        font-size: x-large;
+    }
+    
+    
+    .subNote p:nth-child(2){
+        font-size: xx-large;
+        font-weight: 700;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    .subNote span{
+        margin-left: 5px;
+        display: inline-block;
+        font-size: medium;
+        color: whitesmoke;
+        font-weight: 400;
+        position: relative;
+        bottom: 6px;
+        opacity: 0.5;
+        font-size: large;
+
+        
+    }
+    
+    .subNote p:nth-child(3){
+        /* font-weight: 400; */
+        margin-top: 0px;
+        margin-bottom: 25px;
+        font-size: medium;
+    }
+    
+    .subNote a{
+    
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 20px 20px; 
+        margin-top: 25px;
+        border-radius: 5px;
+        background:hsl(71, 73%, 54%);
+        text-align: center;
+        font-size: larger;
+
+         
+    }
+    
+    .whyNote{
+        background:hsl(179, 98%, 63%);
+        /* color: white; */
+        color: whitesmoke;
+        
+    
+    }
+    
+    .whyNote p:nth-child(1){
+        margin: 0px;
+        font-weight: 700;
+        font-size: x-large;
+    
+    }
+    
+    .whyNote p:nth-child(2){
+        line-height: 150%;
+        font-size: small;
+        /* font-weight: 400; */
+        font-size: medium;
+           
+    }
+
+}
